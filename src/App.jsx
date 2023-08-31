@@ -1,4 +1,13 @@
+import { About, Hero, Navbar, Projects, Skills } from "./components";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return <>
+    <Navbar />
+    <Hero />
+    <Skills />
+    <About />
+    <Projects />
+  </>
+
 };
 export default App;
