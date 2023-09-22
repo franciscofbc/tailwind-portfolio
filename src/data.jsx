@@ -54,4 +54,20 @@ export const projects = [
     title: 'Comfy Sloth',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
+  {
+    id: nanoid(),
+    img: 'https://servidor-estaticos-rose.vercel.app/eplay.png',
+    url: 'https://35-eplay.vercel.app/',
+    github: 'https://github.com/franciscofbc/35-eplay',
+    title: 'Eplay',
+    text: 'React Router, React Redux, Syled Components and TypeScript',
+  },
+  {
+    id: nanoid(),
+    img: 'https://servidor-estaticos-rose.vercel.app/efood.png',
+    url: 'https://35-efood-exercicio.vercel.app/',
+    github: 'https://github.com/franciscofbc/35-efood-exercicio',
+    title: 'Efood',
+    text: 'React Router, React Redux, Syled Components and TypeScript',
+  },
 ];
