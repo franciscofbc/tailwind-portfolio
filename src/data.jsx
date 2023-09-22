@@ -70,4 +70,20 @@ export const projects = [
     title: 'Efood',
     text: 'React Router, React Redux, Syled Components and TypeScript',
   },
+  {
+    id: nanoid(),
+    img: 'https://servidor-estaticos-rose.vercel.app/searchMovies.png',
+    url: 'https://fbcmoviesdb.netlify.app/',
+    github: 'https://github.com/franciscofbc/movies-db',
+    title: 'Search Movies',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
+  {
+    id: nanoid(),
+    img: 'https://servidor-estaticos-rose.vercel.app/searchPhotos.png',
+    url: 'https://fbc-searchphotos.netlify.app/',
+    github: 'https://github.com/franciscofbc/07-unsplash-images',
+    title: 'Search Photos',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
 ];
