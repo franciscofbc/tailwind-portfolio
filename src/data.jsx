@@ -86,4 +86,12 @@ export const projects = [
     title: 'Search Photos',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
+  {
+    id: nanoid(),
+    img: 'https://servidor-estaticos-rose.vercel.app/jobster.png',
+    url: 'https://fbc-jobster.netlify.app/landing',
+    github: 'https://github.com/franciscofbc/jobster',
+    title: 'Jobster',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
 ];
