@@ -12,20 +12,23 @@ export const skills = [
   {
     id: nanoid(),
     title: 'HTML&CSS',
-    icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
+    // text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
   {
     id: nanoid(),
     title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 text-emerald-500' />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    icon: <FaJs className="h-16 w-16 text-emerald-500" />,
+    // text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
   {
     id: nanoid(),
     title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    icon: <FaReact className="h-16 w-16 text-emerald-500" />,
+    // text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
 ];
 
@@ -34,7 +37,8 @@ export const projects = [
     id: nanoid(),
     img: 'https://servidor-estaticos-rose.vercel.app/githubUser.png',
     url: 'https://fbc-githubuser.netlify.app/login',
-    github: 'https://github.com/franciscofbc/starter-project-react-github-search-users-master',
+    github:
+      'https://github.com/franciscofbc/starter-project-react-github-search-users-master',
     title: 'Github User',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
@@ -50,7 +54,8 @@ export const projects = [
     id: nanoid(),
     img: 'https://servidor-estaticos-rose.vercel.app/comfySloth.png',
     url: 'https://fbc-comfysloth.netlify.app/',
-    github: 'https://github.com/franciscofbc/react-course-comfy-sloth-starter-main',
+    github:
+      'https://github.com/franciscofbc/react-course-comfy-sloth-starter-main',
     title: 'Comfy Sloth',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
