@@ -99,4 +99,20 @@ export const projects = [
     title: 'Jobster',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
+  {
+    id: nanoid(),
+    img: 'https://servidor-estaticos-rose.vercel.app/colorGenerator.png',
+    url: 'https://fbc-colorgenerator.netlify.app/',
+    github: 'https://github.com/franciscofbc/09-color-generator',
+    title: 'Color Generator',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
+  {
+    id: nanoid(),
+    img: 'https://servidor-estaticos-rose.vercel.app/mixMaster.png',
+    url: 'https://fbc-mixmaster.netlify.app/',
+    github: 'https://github.com/franciscofbc/09-mixmaster',
+    title: 'MixMaster',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
 ];
